@@ -22,10 +22,5 @@ class Pay:
     
     def payPotential(self, func):
         return ["Salary: %s\nHours a week: %s\n" % (func(x), x) for x in range(40, 80, 5)]
-        
-
-maddypay = Pay(23)
-jamespay = Pay(30)
-ic(maddypay.payPotential(maddypay.salary))
-ic(jamespay.payPotential(jamespay.salary))
+    
 
